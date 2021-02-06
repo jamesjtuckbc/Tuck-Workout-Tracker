@@ -1,0 +1,26 @@
+{
+  "name": "Tuck-Workout-Tracker",
+  "version": "1.0.0",
+  "description": "",
+    "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run seeds/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesjtuckbc/Tuck-Workout-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesjtuckbc/Tuck-Workout-Tracker/issues"
+  },
+  "homepage": "https://github.com/jamesjtuckbc/Tuck-Workout-Tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  }
+}
